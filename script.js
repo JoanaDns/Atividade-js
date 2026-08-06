@@ -56,7 +56,9 @@ document.getElementById("btn5").addEventListener("click" , function(){
 //
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
-
+document.getElementById("btn6").addEventListener("click" , function(){
+    document.getElementById("contador6").style.backgroundColor = "yellow"
+})
 
 
 
