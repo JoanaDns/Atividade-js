@@ -85,8 +85,12 @@ document.getElementById("btn8").addEventListener("click" , function(){
 // Ao clicar no botao, remova o ultimo <li> da #lista9
 //
 // Dica: use .lastElementChild e .removeChild()
-document.getElementById("btn8").addEventListener("click" , function(){
-    document.getElementById("texto8").classList.add("destaque")
+document.getElementById("btn9").addEventListener("click" , function(){
+   let lista = document.getElementById("lista9");
+
+   let ultimoItem = lista.lastElementChild
+
+   lista.removeChild(ultimoItem)
 })
 
 
@@ -96,4 +100,3 @@ document.getElementById("btn8").addEventListener("click" , function(){
 // "https://placecats.com/300/200"
 //
 // Dica: use .src = "nova-url"
-
