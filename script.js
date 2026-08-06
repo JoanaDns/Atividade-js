@@ -67,15 +67,18 @@ document.getElementById("btn6").addEventListener("click" , function(){
 // e mostre dentro do #resultado7
 //
 // Dica: use .value para pegar o texto do input
-
-
+document.getElementById("btn7").addEventListener("click" , function(){
+    let texto = document.getElementById("#input7").value 
+    document.getElementById("resultado7").textContent=texto
+})
 
 // ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
 //
 // Dica: use .classList.add("destaque")
-
-
+document.getElementById("btn8").addEventListener("click" , function(){
+    document.getElementById("texto8").classList.add("destaque")
+})
 
 // ---------- Exercicio 9 ----------
 // Ao clicar no botao, remova o ultimo <li> da #lista9
