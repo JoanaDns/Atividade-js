@@ -98,5 +98,7 @@ document.getElementById("btn9").addEventListener("click" , function(){
 // ---------- Exercicio 10 ----------
 // Ao clicar no botao, troque o src da #imagem10 para
 // "https://placecats.com/300/200"
-//
-// Dica: use .src = "nova-url"
+document.getElementById("btn10").addEventListener("click" , function(){
+    document.getElementById("imagem10").src = "https://placecats.com/300/200"
+})
+
