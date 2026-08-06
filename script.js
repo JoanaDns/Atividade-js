@@ -68,9 +68,9 @@ document.getElementById("btn6").addEventListener("click" , function(){
 //
 // Dica: use .value para pegar o texto do input
 document.getElementById("btn7").addEventListener("click" , function(){
-    let texto = document.getElementById("#input7").value 
+    let texto = document.getElementById("input7").value 
 
-    document.getElementById("#resultado7").textContent=texto
+    document.getElementById("resultado7").textContent=texto
 })
 
 // ---------- Exercicio 8 ----------
