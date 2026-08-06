@@ -85,6 +85,9 @@ document.getElementById("btn8").addEventListener("click" , function(){
 // Ao clicar no botao, remova o ultimo <li> da #lista9
 //
 // Dica: use .lastElementChild e .removeChild()
+document.getElementById("btn8").addEventListener("click" , function(){
+    document.getElementById("texto8").classList.add("destaque")
+})
 
 
 
