@@ -9,8 +9,8 @@
 // para "Texto alterado com sucesso!"
 //
 // Dica: use document.getElementById() e .textContent
-document.getElementById("Btn1").addEventListener("click" , function(){
-    document.getElementById("Texto1").textContent = "Texto alterado com sucesso!"
+document.getElementById("btn1").addEventListener("click" , function(){
+    document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
 })
 
 
@@ -18,15 +18,18 @@ document.getElementById("Btn1").addEventListener("click" , function(){
 // Ao clicar no botao, mude a cor do texto #texto2 para azul
 //
 // Dica: use .style.color = "blue"
-
+document.getElementById("btn2").addEventListener("click" , function(){
+    document.getElementById("texto2").style.color = "blue"
+})
 
 
 // ---------- Exercicio 3 ----------
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
-
-
+document.getElementById("btn3").addEventListener("click" , function(){
+    document.getElementById("texto3").style.display = "none"
+})
 
 // ---------- Exercicio 4 ----------
 // Ao clicar no botao, adicione um novo <li> com o texto
